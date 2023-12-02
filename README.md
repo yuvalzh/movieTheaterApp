@@ -10,7 +10,7 @@ In the server directory, you can run:
 
 # server listen on http://localhost:5000
 
-## Available Scripts
+## Client Scripts
 
 In the client directory, you can run:
 
