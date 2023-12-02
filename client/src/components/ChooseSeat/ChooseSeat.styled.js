@@ -22,3 +22,8 @@ export const SubmitButton = styled.button`
     background-color: #ff69b4;
   }
 `;
+
+export const Row = styled.div`
+  display: flex;
+  justify-content: center;
+`;
