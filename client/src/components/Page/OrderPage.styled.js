@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MovieOrderPageContainer = styled.div`
+export const OrderPageContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
