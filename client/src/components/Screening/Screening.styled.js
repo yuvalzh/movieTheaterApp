@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const MovieContainer = styled.div`
+export const ScreeningContainer = styled.div`
+  cursor: pointer;
   display: flex;
   align-items: center;
   flex-direction: row;

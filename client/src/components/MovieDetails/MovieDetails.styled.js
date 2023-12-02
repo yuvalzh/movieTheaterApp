@@ -13,7 +13,7 @@ export const MovieDetailsContainer = styled.div`
   width: 700px;
 `;
 
-export const NameMovie = styled.h1`
+export const MovieTitle = styled.h1`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +21,7 @@ export const NameMovie = styled.h1`
   align-items: center;
 `;
 
-export const DescriptionMovie = styled.label`
+export const MovieDescription = styled.label`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,15 +29,7 @@ export const DescriptionMovie = styled.label`
   align-items: center;
 `;
 
-export const LengthMovie = styled.label`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  align-items: center;
-`;
-
-export const DateMovie = styled.label`
+export const MovieDuration = styled.label`
   display: flex;
   flex-direction: column;
   justify-content: center;

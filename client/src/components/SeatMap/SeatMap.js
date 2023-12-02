@@ -12,13 +12,12 @@ const SeatMap = () => {
   const renderSeat = (row, number) => {
     //create a unique identifier for each seat in the theater
     const seatId = `${row}-${number}`;
-    const status = selectedSeat === seatId ? "selected" : "available";
+    // const status = selectedSeat === seatId ? "selected" : "available";
     return (
       <Seat
         key={seatId}
         row={row}
         number={number}
-        status={status}
         onSeatClick={handleSeatClick}
       />
     );
