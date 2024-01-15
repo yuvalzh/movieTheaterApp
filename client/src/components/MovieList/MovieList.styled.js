@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ScreeningListContainer = styled.div`
+export const MovieListContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
