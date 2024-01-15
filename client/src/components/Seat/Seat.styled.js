@@ -7,11 +7,11 @@ export const SeatContainer = styled.div`
   background-color: ${(props) => {
     switch (props.status) {
       case "selected":
-        return "blue";
+        return "LightSkyBlue";
       case "unavailable":
-        return "red";
+        return "LightCoral";
       default:
-        return "green";
+        return "LightGreen";
     }
   }};
   cursor: pointer;

@@ -5,13 +5,11 @@ export const FilterMoviesContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  border: 2px solid #333;
-  padding: 20px; /* Add padding for spacing */
-  border-radius: 40px; /* Add rounded corners for a nice look */
-  background-color: gray;
-  height: 20px;
-  margin-top: 200px;
+  gap: 40px; /*space between the object*/
+  border: 3px solid #333;
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 30px; /* Add rounded corners for a nice look */
+  background-color: LightCyan;
 `;
 
 export const InputContainer = styled.div`

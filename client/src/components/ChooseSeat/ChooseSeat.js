@@ -1,6 +1,6 @@
+import Seat from "../Seat/Seat.js";
 import React, { useState } from "react";
 import { ChooseSeatContainer, SubmitButton } from "./ChooseSeat.styled";
-import Seat from "../Seat/Seat.js";
 import { Row } from "./ChooseSeat.styled.js";
 
 const ChooseSeat = () => {

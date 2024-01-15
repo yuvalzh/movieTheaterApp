@@ -1,4 +1,5 @@
 import DatePicker from "react-datepicker";
+import { useState } from "react";
 import {
   FilterMoviesContainer,
   InputContainer,
@@ -7,7 +8,6 @@ import {
   SubmitButton,
 } from "./FilterMovies.styled";
 import "react-datepicker/dist/react-datepicker.css";
-import { useState } from "react";
 
 const FilterMovies = ({ setMovies }) => {
   const [dateFrom, setDateFrom] = useState();

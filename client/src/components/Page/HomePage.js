@@ -1,11 +1,17 @@
-import { useState, useEffect } from "react";
 import ScreeningsList from "../ScreeningList/ScreeningList.js";
-import { HomePageContainer } from "./HomePage.styled.js";
 import FilterMovies from "../FilterMovies/FilterMovies.js";
 import * as ScreeningApi from "../../api/screeningApi.js";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import {
+  HomePageContainer,
+  TitleContainer,
+  AdminButton,
+} from "./HomePage.styled.js";
 
 const HomePage = () => {
   const [screenings, setScreenings] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchScreenings = async () => {
@@ -20,10 +26,16 @@ const HomePage = () => {
     fetchScreenings();
   }, []);
 
+  const onAdminClicked = (id) => {
+    navigate("/admin");
+  };
+
   return (
     <HomePageContainer>
+      <TitleContainer> Home Page </TitleContainer>
       <FilterMovies setScreenings={setScreenings}></FilterMovies>
       <ScreeningsList screenings={screenings}></ScreeningsList>
+      <AdminButton onClick={onAdminClicked}> Admin Page </AdminButton>
     </HomePageContainer>
   );
 };

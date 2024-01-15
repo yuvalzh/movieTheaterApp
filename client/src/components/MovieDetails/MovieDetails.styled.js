@@ -5,7 +5,7 @@ export const MovieDetailsContainer = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 40px;
-  background-color: LightGray;
+  background-color: Gainsboro;
   border-radius: 40px;
   font-family: "Century Gothic", sans-serif;
   font-size: 20px;
